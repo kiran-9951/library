@@ -20,7 +20,7 @@ app.use("/api/borrow",borrowRoute)
 // mongodb connection
 
 mongoose
-  .connect("mongodb://localhost:27017/mern")
+  .connect("mongodb+srv://arvakirank:arvakirank123@cluster0.chhde.mongodb.net/")
   .then(() => {
     console.log("mongodb connected");
   })
